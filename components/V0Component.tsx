@@ -12,7 +12,7 @@ export default function Component() {
       <header className="bg-background px-4 md:px-6 py-4 flex items-center justify-between">
         <Link href="mailto:kai.jarmon@gmail.com" prefetch={false}>
           <h2 className="text-xl font-bold">Kai Jarmon</h2>
-          <span className="sr-only">Kai's Portfolio</span>
+          <span className="sr-only">Kai&apos;s Portfolio</span>
         </Link>
         <nav className="flex items-center gap-4">
           <Link
@@ -44,9 +44,9 @@ export default function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-background">
           <div className="container px-4 md:px-6 mx-auto flex justify-center">
             <div className="max-w-2xl flex flex-col items-center text-center space-y-4">
-              <h1 className="text-2xl sm:text-5xl md:text-6xl font-bold tracking-tighter space-y-2">
-                <div>Hi, I'm Kai.</div>
-                <div>Here's why I'd be a great fit at Vercel.</div>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter space-y-2">
+                <div>Hi, I&apos;m Kai.</div>
+                <div>Here&apos;s why I&apos;d be a great fit at Vercel.</div>
               </h1>
               <h2 className="text-lg sm:text-xl md:text-2xl font-medium flex items-center gap-2 mt-6">
                 <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,9 +72,9 @@ export default function Component() {
             <div className="max-w-3xl space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">About Me</h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Hey Vercel team, I'm Kai Jarmon, a dedicated user and fan of Vercel's technology, eager to join your sales team. I've used Vercel to iterate and deploy products for my startup, PreSnap, which I've been bootstrapping since 2019 during my time as a student-athlete at the University of Texas, where I studied UX design.
+                Hey Vercel team, I&apos;m Kai Jarmon, a dedicated user and fan of Vercel&apos;s technology, eager to join your sales team. I&apos;ve used Vercel to iterate and deploy products for my startup, PreSnap, which I&apos;ve been bootstrapping since 2019 during my time as a student-athlete at the University of Texas, where I studied UX design.
                 <br /><br />
-                I'm extremely passionate about creating amazing user experiences and I want to help the world build a more beautiful web experience with Vercel.
+                I&apos;m extremely passionate about creating amazing user experiences and I want to help the world build a more beautiful web experience with Vercel.
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Component() {
             <div className="max-w-3xl space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">My Background</h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                A quick video on my background and why I'd be able to contribute at Vercel.
+                A quick video on my background and why I&apos;d be able to contribute at Vercel.
               </p>
               <div className="aspect-video w-full overflow-hidden">
                 <iframe
@@ -101,9 +101,9 @@ export default function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 mx-auto flex justify-center">
             <div className="max-w-3xl space-y-4 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How I've Used Vercel</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How I&apos;ve Used Vercel</h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                At PreSnap, we aimed to build one of the best user experiences for football coaches, so naturally, we built our products with Next.js. Since we're a small team, deploying our products on Vercel helped us ship our products quickly and at scale. As the product designer, I used Preview Deployments along with Vercel's Slack integration to communicate changes with our engineers.
+                At PreSnap, we aimed to build one of the best user experiences for football coaches, so naturally, we built our products with Next.js. Since we&apos;re a small team, deploying our products on Vercel helped us ship our products quickly and at scale. As the product designer, I used Preview Deployments along with Vercel&apos;s Slack integration to communicate changes with our engineers.
               </p>
               <Image
                 src="/presnapimage.png"
